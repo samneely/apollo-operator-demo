@@ -30,7 +30,7 @@ spec:
         app: reviews
     spec:
       containers:
-        - image: ghcr.io/samneely/reviews:latest
+        - image: ghcr.io/samneely/apollo-operator-demo/reviews:latest
           name: reviews
           ports:
             - containerPort: 4000
